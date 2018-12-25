@@ -14,7 +14,6 @@ public class GameOfTwoStacks {
 			int x = sc.nextInt();
 			int[] a = readArray(sc, n);
 			int[] b = readArray(sc, m);
-
 			System.out.println(solve(a, b, x));
 		}
 
